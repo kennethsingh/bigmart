@@ -39,7 +39,7 @@
 ---
 
 ## Final Model
-
+**Notebook**: experiment8_final.ipynb
 **Algorithm:** Random Forest  
 The dominant signal (`selling_price_est`) is near-linear. RF's averaging handles this cleanly on 8,523 rows without the variance amplification that boosting causes on a right-skewed target.
 

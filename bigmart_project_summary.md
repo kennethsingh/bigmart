@@ -11,7 +11,7 @@
 
 | # | Notebook Name | Key idea | Findings |
 |---|---|---|---|
-| 1 | `experiment1_naive_baseline` | RF, single split, global mean imputation | Wrong year (2026 vs 2013), wrong imputation strategy, single split is unreliable |
+| 1 | `experiment1_baseline` | RF, single split, global mean imputation | Wrong year (2026 vs 2013), wrong imputation strategy, single split is unreliable |
 | 2 | `experiment2_kfold_ensemble` | KFold CV, per-item weight imputation, RF+GBM | Per-item imputation is correct; KFold > single split; GBM adds no real LB gain |
 | 3 | `experiment3_lb_simulated_validation` | Hold out 40% items per outlet, leaf=38 | Tuning method changes the tuned value; standard KFold is too optimistic |
 | 4 | `experiment4_feature_pruning` | Dropped 7 features → 9 clean ones | Removing noisy features improved LB even when OOF got worse |

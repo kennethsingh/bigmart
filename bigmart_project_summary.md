@@ -43,5 +43,4 @@
 **Algorithm:** Random Forest  
 The dominant signal (`selling_price_est`) is near-linear. RF's averaging handles this cleanly on 8,523 rows without the variance amplification that boosting causes on a right-skewed target.
 
-**Parameters:** `n_estimators=500`, `min_samples_leaf=75`, `max_features=0.5`, `K=5`, `seeds=5`  
-**Features:** 19 (all imputed on combined train+test, none target-derived)
+**Parameters:** `n_estimators=500`, `min_samples_leaf=75`, `max_features=0.5`, `K=5`, `seeds=5`

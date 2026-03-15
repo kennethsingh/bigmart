@@ -9,7 +9,7 @@
 
 ## Experiment Journey
 
-| # | Notebook | Key idea | What we learned |
+| # | Notebook Name | Key idea | Findings |
 |---|---|---|---|
 | 1 | `experiment1_naive_baseline` | RF, single split, global mean imputation | Wrong year (2026 vs 2013), wrong imputation strategy, single split is unreliable |
 | 2 | `experiment2_kfold_ensemble` | KFold CV, per-item weight imputation, RF+GBM | Per-item imputation is correct; KFold > single split; GBM adds no real LB gain |
